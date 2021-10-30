@@ -103,13 +103,17 @@ body{
 .signin{
     background: #23eddf56;
     border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
 }
 .signup{
     background:#35ae174a;
     border-radius: 20px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     
 }
@@ -142,5 +146,3 @@ body{
 .footer .links p{
     margin-right: 5%;
 }
-.footer .links p
-
