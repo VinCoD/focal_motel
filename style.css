@@ -107,6 +107,10 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: .3s ease;
+}
+.signin:hover{
+    background: orangered;
 }
 .signup{
     background:#35ae174a;
@@ -116,6 +120,9 @@ body{
     align-items: center;
     cursor: pointer;
     
+}
+.signup:hover{
+    background: white;
 }
 .footer{
     height: 20.5vh;
@@ -143,6 +150,12 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.footer .links p{
-    margin-right: 5%;
+
+.footer .links p a i{
+    color: white;
+    transition: .3s ease;
 }
+.footer .links p a i:hover{
+    color:orangered;
+}
+
