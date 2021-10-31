@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    
+}
+body{
+    background-image: url(images/abtbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Russo One";
+}
+.master{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.kichwa{
+    text-align: center;
+    margin-top: 2%;
+}
+div .what{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 30vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div .what p{
+    padding: 2%;
+}
+div .ingredients{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 60vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+div .ingredients ul{
+    line-height: 30px;
+}
+
+div .vision{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 27vh;
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+div .customersat{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 27vh;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div .employeesat{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 27vh;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-abt{
+    padding: 5%;
+    line-height: 25px;
+}
+.right-abt{
+    padding: 5%;
+    line-height: 25px;
+}
+/* p{
+    font-size: 12px;
+} */
+
+

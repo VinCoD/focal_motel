@@ -57,12 +57,14 @@ body{
     align-items: center;
     margin-top: 30vh;
     font-family: 'Russo One';
+    line-height: 50px;
     
     
     
 }
 .down h1{
     font-size:25px;
+    color: rgb(187, 255, 0);
 }
 .fa-angle-down{
     font-size: 40px;
@@ -107,10 +109,10 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    transition: .3s ease;
+    transition: .5s ease;
 }
 .signin:hover{
-    background: orangered;
+    background: rgba(255, 68, 0, 0.371);
 }
 .signup{
     background:#35ae174a;
@@ -119,14 +121,16 @@ body{
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition: .5s ease;
     
 }
 .signup:hover{
-    background: white;
+    background: rgba(255, 255, 255, 0.439);
 }
 .footer{
-    height: 20.5vh;
-    width: 100vw;
+    height: 20.5%;
+    width: 100%;
+    bottom: 0%;
     background-color: rgba(0, 0, 0, 0.796);
     position: fixed;
     display: flex;
@@ -159,3 +163,104 @@ body{
     color:orangered;
 }
 
+/* About Section */
+*{
+    margin: 0%;
+    
+}
+.about{
+    background-image: url(images/abtbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: "Russo One";
+    transition: .3s ease;
+    border-radius: 20px;
+}
+.master{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.kichwa{
+    text-align: center;
+    margin-top: 2%;
+}
+div .what{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 30vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div .what p{
+    padding: 2%;
+}
+div .ingredients{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 60vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+div .ingredients ul{
+    line-height: 30px;
+}
+
+div .vision{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 27vh;
+    padding: 2%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+div .customersat{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 27vh;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+div .employeesat{
+    background-color: rgba(0, 0, 0, 0.583);
+    height: 27vh;
+    margin-bottom: 5%;
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-abt{
+    padding: 5%;
+    line-height: 25px;
+}
+.right-abt{
+    padding: 5%;
+    line-height: 25px;
+}
+
+@media only screen and (max-width:720px){
+    body{
+        width: 100%;
+        font-size: 60%;
+    }
+}
