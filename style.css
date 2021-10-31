@@ -286,6 +286,9 @@ div .employeesat{
         justify-content: center;
         align-items: center;
     }
+    .footer{
+        font-size: 50%;
+    }
     
 
 }
