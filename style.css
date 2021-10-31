@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     margin-top:0%;
     padding-top: 0%;
 }
@@ -261,6 +262,30 @@ div .employeesat{
 @media only screen and (max-width:720px){
     body{
         width: 100%;
-        font-size: 60%;
+        padding: 1%;
+        font-size: 40%;
+        
     }
+    .master{
+        grid-template-columns: 1fr;
+    }
+    .signin{
+        font-size: 100%;
+        border-radius: 10%;
+        margin-left: 2%;
+    }
+    .signup{
+        font-size: 100%;
+        border-radius: 10%;
+        margin-right: 2%;
+
+    }
+    .down{
+        font-size: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
 }
